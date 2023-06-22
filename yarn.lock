@@ -260,10 +260,21 @@
     eventemitter3 "^4.0.7"
     tslib "^2.1.0"
 
-"@greymass/eosio@^0.6.0", "@greymass/eosio@^0.6.9":
+"@greymass/eosio@^0.6.0":
   version "0.6.9"
   resolved "https://registry.yarnpkg.com/@greymass/eosio/-/eosio-0.6.9.tgz#e5475dfb6f1507da6ec2f9f0065e19684e8d4b70"
   integrity sha512-Xd6X3sesStFQiw3+6+8tD1IauW3WX25GQnHa/zhUqIE1cB23bjzLqn89JDTcyQYKJ4R24L1rERqko/u6p7RizA==
+  dependencies:
+    bn.js "^4.11.9"
+    brorand "^1.1.0"
+    elliptic "^6.5.4"
+    hash.js "^1.0.0"
+    tslib "^2.0.3"
+
+"@greymass/eosio@^0.6.10":
+  version "0.6.11"
+  resolved "https://registry.yarnpkg.com/@greymass/eosio/-/eosio-0.6.11.tgz#9bd1783f8467834563ac893d41524c01aba0228c"
+  integrity sha512-Ud6V7+vQJ+OLxqD7QcKTv/ik/Hd5uaRHyGY9Hzc+cJXezYU4sADX4TyQ8sn6XIr8ebVVNZFvWpc5JR0a9lBzKw==
   dependencies:
     bn.js "^4.11.9"
     brorand "^1.1.0"
@@ -357,30 +368,30 @@
     magic-string "^0.26.7"
     react-refresh "^0.14.0"
 
-"@wharfkit/session@^0.3.2":
-  version "0.3.2"
-  resolved "https://registry.yarnpkg.com/@wharfkit/session/-/session-0.3.2.tgz#98e946d028434a37b5038da995c12eed72c1f3e2"
-  integrity sha512-rxZKL0Vqm9L20l4C/0wwdmoiPlw9Xd0TQNLax7ZcJB3qsZ4nK+GRlynLfcoM3WppGCL/I5uQ8g/2csFEl0U0pg==
+"@wharfkit/session@^0.5.0":
+  version "0.5.0"
+  resolved "https://registry.yarnpkg.com/@wharfkit/session/-/session-0.5.0.tgz#8003c9c2eefd9335331623ceee2f3c02e5dbce40"
+  integrity sha512-UhOUMmhRkljDTrJrPoD/APfEmA9V1iMNuH1ZqqN1CmQgZ7Jz/6FnR7Ams7peEaxAIVP1bY/GN1lie98+8CEL8g==
   dependencies:
-    "@greymass/eosio" "^0.6.9"
-    eosio-signing-request "^2.5.2"
+    "@greymass/eosio" "^0.6.10"
+    eosio-signing-request "^2.5.3"
     pako "^2.0.4"
     tslib "^2.1.0"
 
-"@wharfkit/wallet-plugin-anchor@^0.3.4":
-  version "0.3.4"
-  resolved "https://registry.yarnpkg.com/@wharfkit/wallet-plugin-anchor/-/wallet-plugin-anchor-0.3.4.tgz#8c8c39dcb67f1c46f2a330df12f45f70199cf924"
-  integrity sha512-lWX0NdQccgKwWv0HSQUv0RNhOIEtydqxK3XN+Yal466Z4PZutetYQ41FKTl792Nr0e3UXqf6SNT2ky8xIO+Y1w==
+"@wharfkit/wallet-plugin-anchor@^0.5.1":
+  version "0.5.1"
+  resolved "https://registry.yarnpkg.com/@wharfkit/wallet-plugin-anchor/-/wallet-plugin-anchor-0.5.1.tgz#137ed715591a30a7c56112e6a28eb2a9aaa5a9e9"
+  integrity sha512-G4Hm1M5pGsF7Lua6B4WWG2Ljz6qFNF27//2UzaVYyQvcl+Nhg50e55aBhTuW4VcLbXcEx3aBirvU+tGsAtp3/g==
   dependencies:
     "@greymass/buoy" "^1.0.3"
     "@greymass/miniaes" "^1.0.0"
     isomorphic-ws "^5.0.0"
     ws "^8.13.0"
 
-"@wharfkit/wallet-plugin-cloudwallet@^0.3.2":
-  version "0.3.2"
-  resolved "https://registry.yarnpkg.com/@wharfkit/wallet-plugin-cloudwallet/-/wallet-plugin-cloudwallet-0.3.2.tgz#7fc3e8ad062687f4f483691a3dbe6e076b7f0155"
-  integrity sha512-sc4Sg02hCNjVclBIiZ7f/zFNigpk52AZB+EiOQfrwfqwi+Uqa5ZT2EvE7ESWl8FVTVi0kTPs+qdlS4hY0Nq5Gg==
+"@wharfkit/wallet-plugin-cloudwallet@^0.5.1":
+  version "0.5.1"
+  resolved "https://registry.yarnpkg.com/@wharfkit/wallet-plugin-cloudwallet/-/wallet-plugin-cloudwallet-0.5.1.tgz#04c16246fbdc8a6b464c4d7105712e90272873f4"
+  integrity sha512-jL3dd2A1Noz5f2ghWp5yP3joLt1L7LvxtJHg39D69MCDJLRhr8/ydPGTYMj0PYjWnGtHi6DdZE5npjqMxooSFA==
   dependencies:
     tslib "^2.1.0"
 
@@ -477,10 +488,10 @@ elliptic@^6.5.4:
     minimalistic-assert "^1.0.1"
     minimalistic-crypto-utils "^1.0.1"
 
-eosio-signing-request@^2.5.2:
-  version "2.5.2"
-  resolved "https://registry.yarnpkg.com/eosio-signing-request/-/eosio-signing-request-2.5.2.tgz#3cf53d71204d32bb5112e2ac84aba189661a630c"
-  integrity sha512-mkWhsjZYVfyvUujbeSBZ4u1NlT5Pks/VAT2CesUtMsffg1e4LaA2/uijrDoGNkhRzVv4VDxrssh9jVPdyV97rw==
+eosio-signing-request@^2.5.3:
+  version "2.5.3"
+  resolved "https://registry.yarnpkg.com/eosio-signing-request/-/eosio-signing-request-2.5.3.tgz#4b15bcc67d2814393a83084c45e4473d638b16e1"
+  integrity sha512-jb4cKjQM+NI8+JwtGClYiCDX9sgSeUreRTE7YkIAga0fo21vtLTjTn0ZUH1zyfQU5b4Drdcs/yUMXdPUtqp9bg==
   dependencies:
     "@greymass/eosio" "^0.6.0"
     tslib "^2.0.3"

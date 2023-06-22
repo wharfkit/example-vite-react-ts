@@ -9,9 +9,9 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@wharfkit/session": "^0.3.2",
-    "@wharfkit/wallet-plugin-anchor": "^0.3.4",
-    "@wharfkit/wallet-plugin-cloudwallet": "^0.3.2",
+    "@wharfkit/session": "^0.5.0",
+    "@wharfkit/wallet-plugin-anchor": "^0.5.1",
+    "@wharfkit/wallet-plugin-cloudwallet": "^0.5.1",
     "@wharfkit/web-ui-renderer": "^0.3.7",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
