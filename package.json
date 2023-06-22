@@ -12,7 +12,7 @@
     "@wharfkit/session": "^0.5.0",
     "@wharfkit/wallet-plugin-anchor": "^0.5.1",
     "@wharfkit/wallet-plugin-cloudwallet": "^0.5.1",
-    "@wharfkit/web-ui-renderer": "^0.3.7",
+    "@wharfkit/web-renderer": "^0.5.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },

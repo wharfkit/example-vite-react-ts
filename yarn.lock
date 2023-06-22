@@ -395,10 +395,10 @@
   dependencies:
     tslib "^2.1.0"
 
-"@wharfkit/web-ui-renderer@^0.3.7":
-  version "0.3.7"
-  resolved "https://registry.yarnpkg.com/@wharfkit/web-ui-renderer/-/web-ui-renderer-0.3.7.tgz#7f060334f8dcf93df80e71f56c5bd29f46b8aac4"
-  integrity sha512-VXJcJGMD/+FUu34QRuEH6tK+OjnnKkMhm9IxARuCjt/cXVzfLkpRw5AjAM1Aj6cPvRoWd2Z8xvm7P5LTVMXbOg==
+"@wharfkit/web-renderer@^0.5.3":
+  version "0.5.3"
+  resolved "https://registry.yarnpkg.com/@wharfkit/web-renderer/-/web-renderer-0.5.3.tgz#89a76b222df14344124ab3473dfd9950ff0c29fc"
+  integrity sha512-eayvObpIxx7OtAKjlxkCn33a5VRXfZLVk02vWpNwNTx1nhFckF4W5s26bpSvw0EwjPGXUL0LsjrHCFq1eXllrQ==
 
 ansi-styles@^3.2.1:
   version "3.2.1"
