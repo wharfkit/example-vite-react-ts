@@ -5,7 +5,7 @@ import './App.css'
 import SessionKit, { BrowserLocalStorage, Session } from '@wharfkit/session'
 import { WalletPluginAnchor } from '@wharfkit/wallet-plugin-anchor'
 import { WalletPluginCloudWallet } from '@wharfkit/wallet-plugin-cloudwallet'
-import WebUIRenderer from '@wharfkit/web-ui-renderer'
+import WebRenderer from '@wharfkit/web-renderer'
 import React from 'react'
 
 const sessionKit = new SessionKit({
@@ -28,8 +28,7 @@ const sessionKit = new SessionKit({
           url: 'https://wax.greymass.com',
       },
   ],
-  storage: new BrowserLocalStorage('demo'),
-  ui: new WebUIRenderer(),
+  ui: new WebRenderer(),
   walletPlugins: [
       new WalletPluginAnchor(),
       new WalletPluginCloudWallet(),
